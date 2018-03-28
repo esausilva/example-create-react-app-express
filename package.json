@@ -1,8 +1,7 @@
 {
   "name": "example-create-react-app-express",
   "version": "1.0.0",
-  "description":
-    "Example on using create-react-app with a Node Express Backend",
+  "description": "Example on using create-react-app with a Node Express Backend",
   "author": {
     "name": "Esau Silva",
     "email": "esausilva85@gmail.com",
@@ -15,18 +14,21 @@
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.3"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/esausilva/example-create-react-app-express.git"
   },
   "bugs": {
-    "url":
-      "https://github.com/esausilva/example-create-react-app-express/issues"
+    "url": "https://github.com/esausilva/example-create-react-app-express/issues"
   },
-  "keywords": ["node", "express", "create-react-app"]
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
 }

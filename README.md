@@ -18,7 +18,7 @@ cd client
 yarn
 ```
 
-To start the server and client at the same time
+To start the server and client at the same time (from the root of the project)
 
 ```
 yarn dev
@@ -26,12 +26,18 @@ yarn dev
 
 ## How this works
 
-The key to use an Express backend with a project created with `create-react-app` is on using a **proxy**. We have a *proxy* entry in `client/package.json`
+The key to use an Express backend with a project created with `create-react-app` is on using a **proxy**. We have a _proxy_ entry in `client/package.json`
 
-``` 
+```
 "proxy": "http://localhost:5000/"
 ```
 
 This tells Webpack development server to proxy our API requests to our API server, given that our Express server is running on **localhost:5000**
+
+## Giving Back
+
+If you would like to support my work and the time I put in making tutorials, you can click the image below to get me a coffee. I would really appreciate it (but is not required).
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/esausilva)
 
 -Esau
