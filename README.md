@@ -44,6 +44,8 @@ This tells Webpack development server to proxy our API requests to our API serve
 
 Visit my [blog post](https://esausilva.com/2017/11/14/how-to-use-create-react-app-with-a-node-express-backend-api/) entry for a detailed step-by-step guide.
 
+[Deployed app](https://cra-express.herokuapp.com/)
+
 ## Giving Back
 
 If you would like to support my work and the time I put in making tutorials, you can click the image below to get me a coffee. I would really appreciate it (but is not required).
