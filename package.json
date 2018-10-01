@@ -20,7 +20,7 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
-    "concurrently": "^3.6.0"
+    "concurrently": "^4.0.1"
   },
   "repository": {
     "type": "git",
