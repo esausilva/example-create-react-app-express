@@ -6,7 +6,7 @@ import './App.css';
 
 class App extends Component {
   state = {
-    response: ''
+    response: '',
   };
 
   componentDidMount() {
@@ -29,9 +29,19 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
         </header>
-        <p className="App-intro">{this.state.response}</p>
+        <p>{this.state.response}</p>
       </div>
     );
   }
