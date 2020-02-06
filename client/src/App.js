@@ -70,6 +70,11 @@ class App extends Component {
           <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
+       <footer className="App-footer">
+         <p>
+            Lana Havryliuk
+          </p>
+         </footer>
       </div>
     );
   }
