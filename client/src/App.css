@@ -8,7 +8,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: -webkit-linear-gradient(#01d9fe, #1558f3);
+  background: -o-linear-gradient(#01d9fe, #1558f3);
+  background: -moz-linear-gradient(#01d9fe, #1558f3);
+  background: linear-gradient(#01d9fe, #1558f3);
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 10px;
+}
+.App-footer {
+  background-color: #3d3d3d;
   min-height: 50%;
   display: flex;
   flex-direction: column;
