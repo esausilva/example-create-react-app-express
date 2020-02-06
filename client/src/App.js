@@ -46,7 +46,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Comments statistics
           </p>
           <a
             className="App-link"
@@ -54,13 +54,13 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Read more
           </a>
         </header>
         <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
-            <strong>Post to Server:</strong>
+            <strong>Send comment:</strong>
           </p>
           <input
             type="text"
