@@ -21,7 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "concurrently": "^4.1.0"
+    "concurrently": "^5.1.0"
   },
   "repository": {
     "type": "git",
